@@ -1,0 +1,48 @@
+.Contents {
+  background-color: black;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10rem;
+}
+
+.upper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.upper h2 {
+  font-size: 4.3rem;
+  font-weight: 700;
+  margin: 1rem;
+  margin-left: 1rem;
+}
+
+.upper h4 {
+  font-size: 2.3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.phoneImage {
+  width: 990px;
+  /* margin-left: -3rem; */
+}
+
+.upper a {
+  color: #0267cc;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: 500;
+}
+.foot {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .Contents {
+    margin-top: -3rem;
+  }
+  .phoneImage {
+    width: 500px;
+  }
+}

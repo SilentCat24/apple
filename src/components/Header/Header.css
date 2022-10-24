@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+.Header {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+  color: black;
+}
+
+.left {
+  margin-top: -2rem;
+}
+.Image {
+  width: 400px;
+  height: 600px;
+}
+
+.right {
+  margin-top: 10rem;
+}
+.right h2 {
+  font-size: 4.5rem;
+  opacity: 0.9;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+.right h4 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.right h5 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  opacity: 0.9;
+  text-align: center;
+  padding: 0.5rem;
+}
+.links a {
+  font-size: 1.4em;
+  font-weight: 400;
+  opacity: 0.9;
+  color: #0267cc;
+  text-align: center;
+  margin-left: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .Header {
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+  .Header .right {
+    margin-top: 4rem;
+  }
+  .Header .Image {
+    margin-top: -3rem;
+  }
+}

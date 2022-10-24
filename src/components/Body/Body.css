@@ -1,0 +1,39 @@
+.Body {
+  margin-top: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.Body h3 {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 3.5rem;
+  opacity: 0.9;
+}
+.Body h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.linked {
+  text-align: center;
+  margin: 1rem;
+}
+
+.linked a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #0267cc;
+  margin: 1rem;
+}
+
+.lower {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .lower .image {
+    width: 450px;
+  }
+}

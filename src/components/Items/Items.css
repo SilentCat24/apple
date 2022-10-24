@@ -1,0 +1,114 @@
+.Watche,
+.iPad,
+.airpods {
+  display: flex;
+
+  font-family: "Roboto", sans-serif;
+  margin-top: 2rem;
+}
+.Watche img,
+.iPad img,
+.airpods img {
+  width: 700px;
+}
+
+.left,
+.rights {
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+}
+.left h2,
+.rights h2 {
+  font-size: 2.3rem;
+  margin: 1rem;
+}
+
+.left h4,
+.rights h4 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 1rem;
+}
+.left h5 {
+  font-size: 1rem;
+
+  color: orange;
+}
+
+.rights {
+  background-color: black;
+  color: white;
+}
+
+.rights h5 {
+  color: red;
+  font-size: 1.2rem;
+}
+
+.iPad .left {
+  background-color: black;
+  color: white;
+}
+
+.iPad .left h2,
+.iPad .rights h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 0.5rem;
+}
+.iPad .left h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.iPad .left h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(156, 156, 148);
+}
+
+.iPad .rights {
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-left: 9rem;
+}
+
+.iPad .rights h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0.6rem;
+}
+.iPad .rights h5 {
+  color: rgb(156, 156, 148);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+.airpods h2 {
+  font-size: 2.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .Watche,
+  .iPad,
+  .airpods {
+    flex-direction: column;
+  }
+
+  .Watche img,
+  .iPad img,
+  .airpods img {
+    width: 400px;
+  }
+
+  .iPad .rights {
+    align-items: center;
+    margin-left: -3rem;
+  }
+}

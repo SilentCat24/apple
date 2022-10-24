@@ -1,0 +1,10 @@
+.FootLinks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.FootLinks li {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgb(129, 129, 129);
+}

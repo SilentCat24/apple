@@ -1,0 +1,16 @@
+.footer {
+  text-align: center;
+  margin-top: -2rem;
+}
+
+.footer p {
+  color: rgb(122, 116, 116);
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem 0rem;
+}
+
+.footer hr {
+  width: 1500px;
+  margin: 1rem 5rem;
+}
